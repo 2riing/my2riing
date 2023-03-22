@@ -32,7 +32,7 @@ const AppContainer = styled.div`
     width: 90%;
     height: 0px;
     border: 0px;
-    border-top: 1.8px solid gray;
+    border-top: 1.8px solid #333333;
     margin-bottom: 20px 0px;
   }
 `;

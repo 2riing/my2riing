@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   width: 100%;
+  font-size: 14px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
