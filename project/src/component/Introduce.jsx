@@ -15,6 +15,7 @@ function Introduce(props) {
 }
 
 const IntroduceContainer = styled.div`
+  width: 88%;
   margin: 20px 0px;
 `;
 

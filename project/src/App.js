@@ -22,11 +22,19 @@ function App() {
 
 const AppContainer = styled.div`
   width: 100vw;
+  max-width: 800px;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  hr {
+    width: 90%;
+    height: 0px;
+    border: 0px;
+    border-top: 1.8px solid gray;
+    margin-bottom: 20px 0px;
+  }
 `;
 
 export default App;

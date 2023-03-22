@@ -10,13 +10,16 @@ function ProfileHeader(props) {
       <MyInfo>
         <div id="mySchool">
           <div>Ajou Univ. Dept. of Environmental Safety Eng.</div>
-          <div>Korea Digital Media HS, Hacking Defense Dept.</div>
+          <div>Korea Digital Media HS, Hacking Defense</div>
           <div>Samsung Youth Software Academy</div>
         </div>
         <div id="myContact">
           <div>2riing2@gmail.com</div>
           <div>
             <a href="https://github.com/2riing">github 2riing</a>
+          </div>
+          <div>
+            <a href="https://velog.io/@2riing">velog 2riing</a>
           </div>
         </div>
       </MyInfo>
@@ -58,7 +61,7 @@ const MyTitle = styled.div`
   background: linear-gradient(to right top, #df2087, #ffa69e);
   color: transparent;
   -webkit-background-clip: text;
-  margin-bottom: 50px;
+  margin: 50px 0px;
   text-align: center;
   @media screen and (max-width: 650px) {
     min-width: 350px;
