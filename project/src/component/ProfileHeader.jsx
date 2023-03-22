@@ -31,9 +31,7 @@ const MyInfo = styled.div`
   justify-content: center;
   text-align: left;
   margin-bottom: 50px;
-  #myPic {
-    width: 10%;
-  }
+
   #mySchool {
     min-width: 230px;
     width: 50%;
@@ -42,6 +40,11 @@ const MyInfo = styled.div`
   #mySchool div {
   }
   #myContact {
+  }
+  @media screen and (max-width: 650px) {
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 `;
 const MyTitle = styled.div`
@@ -53,6 +56,10 @@ const MyTitle = styled.div`
   -webkit-background-clip: text;
   margin-bottom: 50px;
   text-align: center;
+  @media screen and (max-width: 650px) {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 `;
 
 export default ProfileHeader;

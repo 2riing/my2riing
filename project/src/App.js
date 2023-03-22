@@ -22,8 +22,12 @@ function App() {
 }
 
 const AppContainer = styled.div`
-  width: 800px;
+  width: 100vw;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default App;
