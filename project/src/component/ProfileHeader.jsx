@@ -41,12 +41,10 @@ const MyInfo = styled.div`
     width: 70%;
     margin-right: 20px;
     @media screen and (max-width: 650px) {
+      width: 100%;
       min-width: 300px;
       margin-bottom: 20px;
-      width: 100%;
     }
-  }
-  #mySchool div {
   }
   #myContact {
     @media screen and (max-width: 650px) {
@@ -56,7 +54,6 @@ const MyInfo = styled.div`
 `;
 const MyTitle = styled.div`
   font-size: 60px;
-
   font-weight: 900;
   background: linear-gradient(to right top, #df2087, #ffa69e);
   color: transparent;
