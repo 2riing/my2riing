@@ -31,25 +31,32 @@ const MyInfo = styled.div`
   justify-content: center;
   text-align: left;
   margin-bottom: 50px;
-
+  @media screen and (max-width: 650px) {
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
   #mySchool {
     min-width: 230px;
-    width: 50%;
+    width: 70%;
     margin-right: 20px;
+    @media screen and (max-width: 650px) {
+      min-width: 300px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
   }
   #mySchool div {
   }
   #myContact {
-  }
-  @media screen and (max-width: 650px) {
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
+    @media screen and (max-width: 650px) {
+      width: 100%;
+    }
   }
 `;
 const MyTitle = styled.div`
   font-size: 60px;
-  min-width: 600px;
+
   font-weight: 900;
   background: linear-gradient(to right top, #df2087, #ffa69e);
   color: transparent;
@@ -57,6 +64,7 @@ const MyTitle = styled.div`
   margin-bottom: 50px;
   text-align: center;
   @media screen and (max-width: 650px) {
+    min-width: 350px;
     font-size: 40px;
     margin-bottom: 20px;
   }
