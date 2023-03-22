@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-
 import "./App.css";
 import ProfileHeader from "./component/ProfileHeader";
 import Introduce from "./component/Introduce";
