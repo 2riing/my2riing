@@ -56,7 +56,7 @@ const MyInfo = styled.div`
   }
 `;
 const MyTitle = styled.div`
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: 900;
   background: linear-gradient(to right top, #df2087, #ffa69e);
   color: transparent;
@@ -65,7 +65,7 @@ const MyTitle = styled.div`
   text-align: center;
   @media screen and (max-width: 650px) {
     min-width: 350px;
-    font-size: 40px;
+    font-size: 2rem;
     margin-bottom: 20px;
   }
 `;

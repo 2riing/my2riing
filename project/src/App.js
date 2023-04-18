@@ -2,6 +2,7 @@ import "./App.css";
 import ProfileHeader from "./component/ProfileHeader";
 import Introduce from "./component/Introduce";
 import Projects from "./component/Projects";
+import Certificate from "./component/Certificate";
 import styled from "styled-components";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
           <Introduce />
           <hr />
           <Projects />
+          <hr />
+          <Certificate />
         </AppContainer>
       </header>
     </div>
