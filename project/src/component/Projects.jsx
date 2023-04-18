@@ -27,7 +27,6 @@ const ProjectContainer = styled.div`
     border: 2.3px solid;
     border-image: linear-gradient(170deg, #ffdee9 50%, #f7e1a3 100%);
     border-image-slice: 1;
-
     margin: 5px;
     padding: 20px 30px;
   }

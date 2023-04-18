@@ -42,9 +42,7 @@ const ZipContainer = styled.div`
     font-weight: 900;
     margin-right: 10px;
     flex-direction: row;
-
     border-bottom: solid 1px black;
-
     margin-bottom: 5px;
   }
   .pjt-team {
